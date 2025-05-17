@@ -6,6 +6,7 @@ import Navigation from "../components/navigation";
 
 import dynamic from "next/dynamic";
 import RenderModel from "../components/RenderModel";
+
 const Wizard = dynamic(() => import("@/components/models/Wizard"), {
   ssr: false,
 });
