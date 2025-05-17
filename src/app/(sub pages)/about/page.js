@@ -24,6 +24,7 @@ export default function Home() {
 
       <div className="w-full h-3/5 xs:h-3/4 sm:h-screen absolute top-1/2 -translate-y-1/2 left-0 z-10">
         <RenderModel>
+          {/* @ts-ignore */}
           <Wizard />
         </RenderModel>
       </div>
